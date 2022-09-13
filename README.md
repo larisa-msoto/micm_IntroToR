@@ -2,7 +2,7 @@
 
 ## Overview
 
-
+This workshop is beginner-level introduction to programming in R. The course is designed to be taught in two sessions of 3 hours each and is focused on the application of R to the analyzis of tabular data from clinical trials. 
 
 ## Requirements
 
@@ -106,7 +106,7 @@ c) Hands-on: advanced data manipulation
 - Learn about RMarkdown syntax to create reports 
 - Get familiar with existing RMarkdown templates
 
-**Module content::
+**Module content:**
 
 1) Graphics with base R and `ggplot2`
 2) Reports with RMarkdown
