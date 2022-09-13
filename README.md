@@ -37,13 +37,13 @@ install.packages(c("data.table","datasets","devtools","dplyr","ggplot2","ggtheme
 
 **Module content:**
 
-a) Syntax
-b) Aritmetic Operations
-c) Creating variables
-d) Logical operators
-e) Seeking help
-f) Installing packages
-g) Hands on: basics
+- Syntax
+- Aritmetic Operations
+- Creating variables
+- Logical operators
+- Seeking help
+- Installing packages
+- Hands on: basics
 
 ### 2. Data types: attributes and built-in functions
 
@@ -56,13 +56,13 @@ g) Hands on: basics
 
 **Module content:**
 
-a) Vectors
-b) Lists
-c) Factors
-d) Data frames
-e) Arrays
-f) Coercion
-g) Hands-on: data types 
+- Vectors
+- Lists
+- Factors
+- Data frames
+- Arrays
+- Coercion
+- Hands-on: data types 
 
 ### 3. Basic data manipulation
 
@@ -76,9 +76,9 @@ g) Hands-on: data types
 
 **Module content:**
 
-a) Reading/writing data
-b) Exploring data frames
-c) Hands-on: basic data manipulation
+- Reading/writing data
+- Exploring data frames
+- Hands-on: basic data manipulation
 
 ### 4. Advanced data manipulation
 
@@ -91,9 +91,9 @@ c) Hands-on: basic data manipulation
 
 **Module content:**
 
-a) Handling data frames with dplyr and tidyr
-b) Other useful packages
-c) Hands-on: advanced data manipulation 
+- Handling data frames with dplyr and tidyr
+- Other useful packages
+- Hands-on: advanced data manipulation 
 
 ### 5. Generating visual outputs
 
@@ -108,9 +108,9 @@ c) Hands-on: advanced data manipulation
 
 **Module content:**
 
-a) Graphics with base R and `ggplot2`
-b) Reports with RMarkdown
-c) Hands-on: Graphics wth `ggplot2`
+- Graphics with base R and `ggplot2`
+- Reports with RMarkdown
+- Hands-on: Graphics wth `ggplot2`
 
 ### 6. Control structures and functions
 
@@ -123,9 +123,9 @@ c) Hands-on: Graphics wth `ggplot2`
 
 **Module content:**
 
-a) Creating your own function
-b) `if` Statement
-c) `for` loop
+- Creating your own function
+- `if` Statement
+- `for` loop
 
 ### 7. Activity: Analyze data from a clinical trial
 
@@ -145,8 +145,8 @@ c) `for` loop
 
 **Module content:**
 
-a) Good coding practices    
-b) Style guide   
+- Good coding practices    
+- Style guide   
 
 ## References
 
