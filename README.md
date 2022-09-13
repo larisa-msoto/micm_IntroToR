@@ -2,7 +2,7 @@
 
 ## Overview
 
-This workshop is beginner-level introduction to programming in R. The course is designed to be taught in two sessions of 3 hours each and is focused on the application of R to the analyzis of tabular data from clinical trials. 
+This workshop is beginner-level introduction to programming in R. The course is designed to be taught in two sessions of 3 hours each and is focused on the application of R to the analysis of tabular data from clinical trials. 
 
 ## Requirements
 
