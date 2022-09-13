@@ -21,9 +21,9 @@ install.packages(c("data.table","datasets","devtools","dplyr","ggplot2","ggtheme
 
 ## Workshop Outline
 
-### R basics
+### 1. R basics
 
-Learning objectives:
+**Learning objectives:**
 
 - Familiarize with the language and the logic behind it
 - Create a project in R studio 
@@ -35,50 +35,118 @@ Learning objectives:
 - Learn how to ask for help 
 - Get comfortable installing packages
 
-Module sections:
+**Module content:**
 
-1) Syntax
-2) Aritmetic Operations
-3) Creating variables
-4) Logical operators
-5) Seeking help
-6) Installing packages
+a) Syntax
+b) Aritmetic Operations
+c) Creating variables
+d) Logical operators
+e) Seeking help
+f) Installing packages
+g) Hands on: basics
+
+### 2. Data types: attributes and built-in functions
+
+**Learning objectives:**
+
+- Understand the differences between classes, objects and data types in R
+- Create objects of different types
+- Subset and index objects 
+- Learn and apply vectorized operations
+
+**Module content:**
+
+a) Vectors
+b) Lists
+c) Factors
+d) Data frames
+e) Arrays
+f) Coercion
+g) Hands-on: data types 
+
+### 3. Basic data manipulation
+
+**Learning objectives:**
+
+- Learn how to read/write data to/from files with different formats (.tsv, .csv)
+- Familiarize with basic operations of data frames 
+- Index and subset data frames using base R functions
+- Manipulate specific data frame columns
+- Join data frames by columns and rows 
+
+**Module content:**
+
+a) Reading/writing data
+b) Exploring data frames
+c) Hands-on: basic data manipulation
+
+### 4. Advanced data manipulation
+
+**Learning objectives:**
+
+- Familiarize with the dplyr syntax
+- Create pipes with the operator `%>%`
+- Perform operations on data frames using dplyr and tidyr functions
+- Implement functions from external packages by reading their documentation in R
+
+**Module content:**
+
+a) Handling data frames with dplyr and tidyr
+b) Other useful packages
+c) Hands-on: advanced data manipulation 
+
+### 5. Generating visual outputs
+
+**Learning objectives**
+
+- Create basic plots using base R functions
+- Understand the connection between data frames and ggplot2
+- Create basic graphs with ggplot2
+- Use factors to customize graphics in ggplot2
+- Learn about RMarkdown syntax to create reports 
+- Get familiar with existing RMarkdown templates
+
+**Module content::
+
+1) Graphics with base R and `ggplot2`
+2) Reports with RMarkdown
+3) Hands-on: Graphics wth `ggplot2`
+
+### 6. Control structures and functions
+
+**Learning objectives:**
+
+- Understand the concept of environments in R
+- Create new functions
+- Implement conditional statements 
+- Implement a for loop to iterate over a list of files
+
+**Module content:**
+
+1) Creating your own function
+2) `if` Statement
+3) `for` loop
+
+### 7. Activity: Analyze data from a clinical trial
+
+**Learning objectives:**
+
+- Familiarize with a real-life use of R in the pharma industry environment
+- Apply the knowledge from previous modules to create an analysis pipeline
 
 
+### 8. Software development concepts
 
-### Data types: attributes and built-in functions
-#### Vectors
-#### Lists
-#### Factors
-#### Data frames
-#### Arrays
-#### Coercion
-#### Hands-on: data types 
+**Learning objectives:**
 
-### Basic data manipulation
-#### Reading/writing data
-#### Exploring data frames
-#### Hands-on: basic data manipulation
+- Develop  good coding practices
+- Familiarize with documentation standards 
+- Know what to avoid when programming in R
 
-### Advanced data manipulation
-#### Handling data frames with dplyr and tidyr
-#### Other useful packages
-#### Hands-on: advanced data manipulation 
+**Module content:**
 
-### Generating visual outputs
-#### Graphics with base R and `ggplot2`
-#### Reports with RMarkdown
-#### Hands-on: Graphics wth `ggplot2`
-
-### Control structures and functions
-#### Creating your own function
-#### `if` Statement
-#### `for` loop
-
-### Activity: Analyze data from a clinical trial
-
-### Software development concepts
-#### Good coding practices
+1) Good coding practices
+2) Style guide 
 
 ## References
 
