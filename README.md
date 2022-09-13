@@ -23,17 +23,7 @@ install.packages(c("data.table","datasets","devtools","dplyr","ggplot2","ggtheme
 
 ### 1. R basics
 
-**Learning objectives:**
-
-- Familiarize with the language and the logic behind it
-- Create a project in R studio 
-- Configure the working directory
-- Create your first R script 
-- Get fluent in R using the console
-- Compute arithmetic operations
-- Use logical operators on variables
-- Learn how to ask for help 
-- Get comfortable installing packages
+In the first module of the workshop, the goals are to (1) familiarize with the language and the logic behind it; (2) Get started with R studio and create your first project; (3) Configure the working directory with a common standard structure; (4) Create your first `.R` file to write down the live code; (5) Compute arithmetic operations; (6) Use logical operators; (7) Get fluent in R's console; (8) Learn how to ask for help within R ; and (9) get comfortabble with installing packages. 
 
 **Module content:**
 
@@ -47,12 +37,7 @@ install.packages(c("data.table","datasets","devtools","dplyr","ggplot2","ggtheme
 
 ### 2. Data types: attributes and built-in functions
 
-**Learning objectives:**
-
-- Understand the differences between classes, objects and data types in R
-- Create objects of different types
-- Subset and index objects 
-- Learn and apply vectorized operations
+In this section participants will (1) understand the differences between classes, objects and data types in R; (2) create objects of different types, learn about their attributes and apply some built-in functions in R; (3) Subset and index objects; and (4) get comfortable with vectorized operations. 
 
 **Module content:**
 
@@ -66,13 +51,7 @@ install.packages(c("data.table","datasets","devtools","dplyr","ggplot2","ggtheme
 
 ### 3. Basic data manipulation
 
-**Learning objectives:**
-
-- Learn how to read/write data to/from files with different formats (.tsv, .csv)
-- Familiarize with basic operations of data frames 
-- Index and subset data frames using base R functions
-- Manipulate specific data frame columns
-- Join data frames by columns and rows 
+In this module participants will (1) learn how to read/write data to/from files with different formats (.tsv, .csv); (2) become familiar with basic data-frame operations; (3) index and subset data frames using base R; (4) manipulate individual data frame columns; and (5) learn how to join columns and rows of different data frames using base R.
 
 **Module content:**
 
@@ -82,12 +61,7 @@ install.packages(c("data.table","datasets","devtools","dplyr","ggplot2","ggtheme
 
 ### 4. Advanced data manipulation
 
-**Learning objectives:**
-
-- Familiarize with the dplyr syntax
-- Create pipes with the operator `%>%`
-- Perform operations on data frames using dplyr and tidyr functions
-- Implement functions from external packages by reading their documentation in R
+The fourth module participants will (1) familiarize with the dplyr syntax; (2) create pipes with the operator `%>%`; (3) perform operations on data frames using dplyr and tidyr functions; and (4) implement functions from external packages by reading their documentation in R
 
 **Module content:**
 
@@ -97,14 +71,7 @@ install.packages(c("data.table","datasets","devtools","dplyr","ggplot2","ggtheme
 
 ### 5. Generating visual outputs
 
-**Learning objectives**
-
-- Create basic plots using base R functions
-- Understand the connection between data frames and ggplot2
-- Create basic graphs with ggplot2
-- Use factors to customize graphics in ggplot2
-- Learn about RMarkdown syntax to create reports 
-- Get familiar with existing RMarkdown templates
+This section will show participants how to (1) Create basic plots using base R functions; (2) Understand how to connect data frames with ggplot2; (3) create basic graphs with ggplot2; (4) use factors to customize graphics in ggplot2; (5) use RMarkdown to generate customized reports. 
 
 **Module content:**
 
@@ -114,12 +81,7 @@ install.packages(c("data.table","datasets","devtools","dplyr","ggplot2","ggtheme
 
 ### 6. Control structures and functions
 
-**Learning objectives:**
-
-- Understand the concept of environments in R
-- Create new functions
-- Implement conditional statements 
-- Implement a for loop to iterate over a list of files
+This module covers some more advanced programming concepts. After this section participants will (1) understand the concept of environments in R; (2) beb able to create new funcitons; (3) implement a conditional statement; and (2) implement a loop to iterate over a list of files. 
 
 **Module content:**
 
@@ -129,24 +91,18 @@ install.packages(c("data.table","datasets","devtools","dplyr","ggplot2","ggtheme
 
 ### 7. Activity: Analyze data from a clinical trial
 
-**Learning objectives:**
-
-- Familiarize with a real-life use of R in the pharma industry environment
-- Apply the knowledge from previous modules to create an analysis pipeline
-
+This hands-on activity will familiarize participants with a real-life use of R in the pharma industry environment and encorage them to 
+apply the knowledge from previous modules to create an analysis pipeline.
 
 ### 8. Software development concepts
 
-**Learning objectives:**
-
-- Develop  good coding practices
-- Familiarize with documentation standards 
-- Know what to avoid when programming in R
+To conclude the workshop, participants will (1) acquire good coding practices; (2) be familiar with code documentation standatds; (3) know what to avoid when programming in R; (4) learn how to debug and troubbleshoot their own code. 
 
 **Module content:**
 
 - Good coding practices    
 - Style guide   
+- Debugging and troubleshooting 
 
 ## References
 
@@ -157,5 +113,4 @@ The materials for this workshop were based on the following sources:
 - [Mastering Software Development in R](https://bookdown.org/rdpeng/RProgDA/) 
 
 
-   
 *Workshop created as part of the McGill Initiative in Computational Medicine*
