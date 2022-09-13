@@ -108,9 +108,9 @@ c) Hands-on: advanced data manipulation
 
 **Module content:**
 
-1) Graphics with base R and `ggplot2`
-2) Reports with RMarkdown
-3) Hands-on: Graphics wth `ggplot2`
+a) Graphics with base R and `ggplot2`
+b) Reports with RMarkdown
+c) Hands-on: Graphics wth `ggplot2`
 
 ### 6. Control structures and functions
 
@@ -123,9 +123,9 @@ c) Hands-on: advanced data manipulation
 
 **Module content:**
 
-1) Creating your own function
-2) `if` Statement
-3) `for` loop
+a) Creating your own function
+b) `if` Statement
+c) `for` loop
 
 ### 7. Activity: Analyze data from a clinical trial
 
@@ -145,16 +145,16 @@ c) Hands-on: advanced data manipulation
 
 **Module content:**
 
-1) Good coding practices
-2) Style guide 
+a) Good coding practices    
+b) Style guide   
 
 ## References
 
 The materials for this workshop were based on the following sources:
 
-[Base R Cheat Sheet](https://iqss.github.io/dss-workshops/R/Rintro/base-r-cheat-sheet.pdf) 
-[Google's R Style Guide](https://google.github.io/styleguide/Rguide.html) 
-[Mastering Software Development in R](https://bookdown.org/rdpeng/RProgDA/) 
+- [Base R Cheat Sheet](https://iqss.github.io/dss-workshops/R/Rintro/base-r-cheat-sheet.pdf)   
+- [Google's R Style Guide](https://google.github.io/styleguide/Rguide.html) 
+- [Mastering Software Development in R](https://bookdown.org/rdpeng/RProgDA/) 
 
 
    
