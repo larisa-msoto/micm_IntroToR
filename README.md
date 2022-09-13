@@ -22,12 +22,29 @@ install.packages(c("data.table","datasets","devtools","dplyr","ggplot2","ggtheme
 ## Workshop Outline
 
 ### R basics
-#### Syntax
-#### Aritmetic Operations
-#### Creating variables
-#### Logical operators
-#### Seeking help
-#### Installing packages
+
+Learning objectives:
+
+- Familiarize with the language and the logic behind it
+- Create a project in R studio 
+- Configure the working directory
+- Create your first R script 
+- Get fluent in R using the console
+- Compute arithmetic operations
+- Use logical operators on variables
+- Learn how to ask for help 
+- Get comfortable installing packages
+
+Module sections:
+
+1) Syntax
+2) Aritmetic Operations
+3) Creating variables
+4) Logical operators
+5) Seeking help
+6) Installing packages
+
+
 
 ### Data types: attributes and built-in functions
 #### Vectors
