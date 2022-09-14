@@ -69,16 +69,7 @@ This module covers some more advanced programming concepts. After this section p
 - `if` Statement
 - `for` loop
 
-### 5. Generating visual outputs
-
-This section will show participants how to (1) Create basic plots using base R functions; (2) Understand how to connect data frames with ggplot2; (3) create basic graphs with ggplot2; (4) use factors to customize graphics in ggplot2; (5) use RMarkdown to generate customized reports. 
-
-**Module content:**
-
-- Graphics with base R and `ggplot2`
-- Reports with RMarkdown
-
-### 6. Advanced data manipulation
+### 5. Advanced data manipulation
 
 The fourth module participants will (1) familiarize with the dplyr syntax; (2) create pipes with the operator `%>%`; (3) perform operations on data frames using dplyr and tidyr functions; and (4) implement functions from external packages by reading their documentation in R
 
@@ -87,6 +78,15 @@ The fourth module participants will (1) familiarize with the dplyr syntax; (2) c
 - Handling data frames with dplyr and tidyr
 - Other useful packages
 - Hands-on: advanced data manipulation 
+
+### 6. Generating visual outputs
+
+This section will show participants how to (1) Create basic plots using base R functions; (2) Understand how to connect data frames with ggplot2; (3) create basic graphs with ggplot2; (4) use factors to customize graphics in ggplot2; (5) use RMarkdown to generate customized reports. 
+
+**Module content:**
+
+- Graphics with base R and `ggplot2`
+- Reports with RMarkdown
 
 
 ### 7. Activity: Analyze COVID testing dataset
