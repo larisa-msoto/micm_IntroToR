@@ -89,7 +89,7 @@ This module covers some more advanced programming concepts. After this section p
 - `if` Statement
 - `for` loop
 
-### 7. Activity: Analyze data from a clinical trial
+### 7. Activity: Analyze medical data
 
 This hands-on activity will familiarize participants with a real-life use of R in the pharma industry environment and encorage them to 
 apply the knowledge from previous modules to create an analysis pipeline.
