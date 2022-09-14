@@ -77,7 +77,6 @@ This section will show participants how to (1) Create basic plots using base R f
 
 - Graphics with base R and `ggplot2`
 - Reports with RMarkdown
-- Hands-on: Graphics wth `ggplot2`
 
 ### 6. Control structures and functions
 
@@ -89,7 +88,7 @@ This module covers some more advanced programming concepts. After this section p
 - `if` Statement
 - `for` loop
 
-### 7. Activity: Analyze medical data
+### 7. Activity: Analyze COVID testing dataset
 
 This hands-on activity will familiarize participants with a real-life use of R in the pharma industry environment and encorage them to 
 apply the knowledge from previous modules to create an analysis pipeline.
