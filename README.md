@@ -59,15 +59,15 @@ In this module participants will (1) learn how to read/write data to/from files 
 - Exploring data frames
 - Hands-on: basic data manipulation
 
-### 4. Advanced data manipulation
+### 4. Control structures and functions
 
-The fourth module participants will (1) familiarize with the dplyr syntax; (2) create pipes with the operator `%>%`; (3) perform operations on data frames using dplyr and tidyr functions; and (4) implement functions from external packages by reading their documentation in R
+This module covers some more advanced programming concepts. After this section participants will (1) understand the concept of environments in R; (2) beb able to create new funcitons; (3) implement a conditional statement; and (2) implement a loop to iterate over a list of files. 
 
 **Module content:**
 
-- Handling data frames with dplyr and tidyr
-- Other useful packages
-- Hands-on: advanced data manipulation 
+- Creating your own function
+- `if` Statement
+- `for` loop
 
 ### 5. Generating visual outputs
 
@@ -78,15 +78,16 @@ This section will show participants how to (1) Create basic plots using base R f
 - Graphics with base R and `ggplot2`
 - Reports with RMarkdown
 
-### 6. Control structures and functions
+### 6. Advanced data manipulation
 
-This module covers some more advanced programming concepts. After this section participants will (1) understand the concept of environments in R; (2) beb able to create new funcitons; (3) implement a conditional statement; and (2) implement a loop to iterate over a list of files. 
+The fourth module participants will (1) familiarize with the dplyr syntax; (2) create pipes with the operator `%>%`; (3) perform operations on data frames using dplyr and tidyr functions; and (4) implement functions from external packages by reading their documentation in R
 
 **Module content:**
 
-- Creating your own function
-- `if` Statement
-- `for` loop
+- Handling data frames with dplyr and tidyr
+- Other useful packages
+- Hands-on: advanced data manipulation 
+
 
 ### 7. Activity: Analyze COVID testing dataset
 
