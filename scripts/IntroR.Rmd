@@ -1113,19 +1113,6 @@ source("functions/functions-day1.R")
 
 # Advanced data manipulation 
 
-## Handling data frames with dplyr and tidyr 
-
-
-
-## Other useful packages
-
-## Hands-on: advanced data manipulation
-
-
-
-
-
-
 There are several packages that allow for more sophisticated processing operations to be done faster. We will take a look at some functions from three of them.
 
 ## Splitting and merging data frames
