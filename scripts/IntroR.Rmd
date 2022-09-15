@@ -1325,14 +1325,14 @@ hist(gapminder$lifeExp,xlab="Life expectancy")
 ```
 Arrange figures into multiple panels with `par`
 
-```{r,fig.width=4,fig.height=2}
+```{r,fig.width=8,fig.height=4}
 df<-gapminder[gapminder$country=="Switzerland",]
 par(mfrow=c(1,3))
 plot(y = df$lifeExp,x=df$year,xlab="Years",ylab="Life expectancy")
 plot(y = df$pop,x=df$year,xlab="Years",ylab="Population size")
 plot(y = df$gdpPercap,x=df$year,xlab="Years",ylab="GDP per capita")
 ```
-```{r,fig.width=4,fig.height=2}
+```{r,fig.width=8,fig.height=4}
 df<-gapminder[gapminder$country=="Zimbabwe",]
 par(mfrow=c(1,3))
 plot(y = df$lifeExp,x=df$year,xlab="Years",ylab="Life expectancy")
@@ -1349,6 +1349,7 @@ library(ggplot2)
 
 We can look at multiple countries at the same time in a prettier way
 
+
 ```{r}
 df<-gapminder %>%
       mutate(country = as.character(country)) %>%
@@ -1362,6 +1363,7 @@ ggplot(df,aes(x=year,y=gdpPercap,color=country))+
   geom_point()+
   geom_line()
 ```
+
 
 Now, let's plot the mean GDP per-capita over time for each continent
 
@@ -1381,6 +1383,7 @@ ggplot(gdp_c,aes(x=year,y=mean_gdpPercap,color=continent))+
   geom_point()+
   geom_line()
 ```
+
 We can pipe objects directly into the `ggplot()` function:
 
 ```{r}
@@ -1400,6 +1403,7 @@ gapminder %>%
     geom_point()+
     geom_line()
 ```
+
 #### Exercise 
 
 Plot the life expectancy over time of all countries for the years with population size larger than 2+06
