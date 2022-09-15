@@ -820,7 +820,7 @@ To remove empty rows
 na.list<-rep(NA,ncol(aust))
 aust<-rbind(aust,na.list)
 tail(aust)
-aust<-aust[!is.na(aust),]
+aust<-aust[!is.na(aust$country),]
 tail(aust)
 ```
 
@@ -849,7 +849,7 @@ aust[1,"lifeExp"]<-aust[1,"lifeExp"]+1
 
 # Control structures and functions
 
-## `ìf` statement
+## `if` statement
 
 As a general rule, the result of whatever is contained inside the `if()` has to return a single logical element (`TRUE` or  `FALSE`), but you can combine multiple conditionals.
 
@@ -970,7 +970,7 @@ If you know the size of your output, it is better to specify it at the beginning
 
 ```{r}
 seqs_mat<-matrix(nrow=5,ncol=5)
-let_vec<-c('a', 'b', 'c')
+let_vec<-c('a', 'b', 'c','d','e')
 for (i in 1:5) {
   for (j in 1:5) {
     seqs_mat[i,j]<-paste(i,let_vec[j])
@@ -1284,7 +1284,7 @@ gapminder %>%
   mutate(gdp_billion = gdpPercap*pop/10^9)
 ```
 
-### Put them all together 
+### Putting them all together 
 
 ```{r}
 gdp_pop_ext <-gapminder %>%
@@ -1323,6 +1323,7 @@ gapminder %>%
 ```{r}
 hist(gapminder$lifeExp,xlab="Life expectancy")
 ```
+
 Arrange figures into multiple panels with `par`
 
 ```{r,fig.width=8,fig.height=4}
@@ -1438,6 +1439,7 @@ gapminder %>%
     geom_point()+
     geom_line()
 ```
+
 You can store the plots in an object and keep adding layers to it
 
 ```{r,message=FALSE}
@@ -1547,9 +1549,10 @@ map()
 
 ## Debugging and troubleshooting
 
-General advice:
-- Create a minimal reproducible example of your error   
-- Whenever you see an error copy the full message and paste it in the search bar on your web browser. There is a lot of support out there, and most likely someone came across that same error before.  
+General advice:  
+
+  - Create a minimal reproducible example of your error.      
+  - Whenever you see an error copy the full message and paste it in the search bar on your web browser. There is a lot of support out there, and most likely someone came across that same error before.     
 
 
 # References
